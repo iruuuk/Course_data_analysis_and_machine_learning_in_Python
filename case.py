@@ -16,17 +16,17 @@ for j in deth:
 print(sreddeath/5)
 
 #кейс 2
-# employees = ['Иванов', 'Рогов', 'Александров', 'Зайцев', 'Булкин', 'Прохоров']
-# print(' В этот день было ', len(employees), ' сотрудников')
-# surname = input('Введите фамилию: ')
-# m = 0
-# for i in employees:
-#     if surname == i:
-#         print('Был')
-#         m = 0
-#         break
-# if m == 1:
-#     print('Не был')
+employees = ['Иванов', 'Рогов', 'Александров', 'Зайцев', 'Булкин', 'Прохоров']
+print(' В этот день было ', len(employees), ' сотрудников')
+surname = input('Введите фамилию: ')
+m = 0
+for i in employees:
+    if surname == i:
+        print('Был')
+        m = 0
+        break
+if m == 1:
+    print('Не был')
 
 #кейс 3
 medicines = ['Спазмалгон', 'Нурофен', 'Тизин', 'Назонекс', 'Грипферон', 'Боярышник']
